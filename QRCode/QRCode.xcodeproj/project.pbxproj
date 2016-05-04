@@ -15,9 +15,9 @@
 		07081C821CA3FF370063884D /* QRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081C811CA3FF370063884D /* QRCodeTests.m */; };
 		07081C8D1CA3FF370063884D /* QRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081C8C1CA3FF370063884D /* QRCodeUITests.m */; };
 		07081C9C1CA3FFB90063884D /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081C9B1CA3FFB90063884D /* MBNavigationController.m */; };
-		07081C9F1CA3FFD30063884D /* MBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081C9E1CA3FFD30063884D /* MBTabBarViewController.m */; };
 		07081CA21CA3FFFB0063884D /* MBCreateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081CA11CA3FFFB0063884D /* MBCreateController.m */; };
 		07081CA51CA400130063884D /* MBScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07081CA41CA400130063884D /* MBScanController.m */; };
+		3ACD1A8F1CDA026200F2047C /* MBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD1A8E1CDA026200F2047C /* MBTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		07081C8E1CA3FF370063884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07081C9A1CA3FFB90063884D /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
 		07081C9B1CA3FFB90063884D /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
-		07081C9D1CA3FFD30063884D /* MBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBTabBarViewController.h; path = ../MBTabBarViewController.h; sourceTree = "<group>"; };
-		07081C9E1CA3FFD30063884D /* MBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBTabBarViewController.m; path = ../MBTabBarViewController.m; sourceTree = "<group>"; };
 		07081CA01CA3FFFB0063884D /* MBCreateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCreateController.h; sourceTree = "<group>"; };
 		07081CA11CA3FFFB0063884D /* MBCreateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCreateController.m; sourceTree = "<group>"; };
 		07081CA31CA400130063884D /* MBScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBScanController.h; sourceTree = "<group>"; };
 		07081CA41CA400130063884D /* MBScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBScanController.m; sourceTree = "<group>"; };
+		3ACD1A8D1CDA026200F2047C /* MBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarViewController.h; sourceTree = "<group>"; };
+		3ACD1A8E1CDA026200F2047C /* MBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +110,12 @@
 		07081C661CA3FF370063884D /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				3ACD1A8D1CDA026200F2047C /* MBTabBarViewController.h */,
+				3ACD1A8E1CDA026200F2047C /* MBTabBarViewController.m */,
 				07081C6A1CA3FF370063884D /* AppDelegate.h */,
 				07081C6B1CA3FF370063884D /* AppDelegate.m */,
 				07081C9A1CA3FFB90063884D /* MBNavigationController.h */,
 				07081C9B1CA3FFB90063884D /* MBNavigationController.m */,
-				07081C9D1CA3FFD30063884D /* MBTabBarViewController.h */,
-				07081C9E1CA3FFD30063884D /* MBTabBarViewController.m */,
 				07081CA01CA3FFFB0063884D /* MBCreateController.h */,
 				07081CA11CA3FFFB0063884D /* MBCreateController.m */,
 				07081CA31CA400130063884D /* MBScanController.h */,
@@ -290,8 +290,8 @@
 			files = (
 				07081C6C1CA3FF370063884D /* AppDelegate.m in Sources */,
 				07081CA21CA3FFFB0063884D /* MBCreateController.m in Sources */,
-				07081C9F1CA3FFD30063884D /* MBTabBarViewController.m in Sources */,
 				07081C9C1CA3FFB90063884D /* MBNavigationController.m in Sources */,
+				3ACD1A8F1CDA026200F2047C /* MBTabBarViewController.m in Sources */,
 				07081C691CA3FF370063884D /* main.m in Sources */,
 				07081CA51CA400130063884D /* MBScanController.m in Sources */,
 			);
@@ -519,6 +519,7 @@
 				07081C931CA3FF370063884D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07081C941CA3FF370063884D /* Build configuration list for PBXNativeTarget "QRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				07081C961CA3FF370063884D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07081C971CA3FF370063884D /* Build configuration list for PBXNativeTarget "QRCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +537,7 @@
 				07081C991CA3FF370063884D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

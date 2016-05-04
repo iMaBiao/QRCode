@@ -32,6 +32,21 @@
 }
 
 - (void)sacn2Dbarcode{
+    if (TARGET_OS_SIMULATOR) {
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"警告"
+                                                                       message:@"模拟器无法使用摄像头"
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {
+                                                                  return ;
+                                                              }];
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+        return;
+    }
+    
     //1、创建捕捉会话
     AVCaptureSession *session = [[AVCaptureSession alloc]init];
     self.session = session;
