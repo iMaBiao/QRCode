@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
     self.view.backgroundColor = [UIColor whiteColor];
     
     UIButton *button = [[UIButton alloc]init];
@@ -75,6 +75,7 @@
     //5 开始扫描
     [self.session startRunning];
 }
+
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
     if (metadataObjects.count > 0) {
         //object为返回的数据

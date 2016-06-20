@@ -58,6 +58,7 @@
 		07081CA11CA3FFFB0063884D /* MBCreateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCreateController.m; sourceTree = "<group>"; };
 		07081CA31CA400130063884D /* MBScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBScanController.h; sourceTree = "<group>"; };
 		07081CA41CA400130063884D /* MBScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBScanController.m; sourceTree = "<group>"; };
+		3A137C691D1786B900A36CC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3ACD1A8D1CDA026200F2047C /* MBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarViewController.h; sourceTree = "<group>"; };
 		3ACD1A8E1CDA026200F2047C /* MBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +126,7 @@
 				07081C751CA3FF370063884D /* LaunchScreen.storyboard */,
 				07081C781CA3FF370063884D /* Info.plist */,
 				07081C671CA3FF370063884D /* Supporting Files */,
+				3A137C691D1786B900A36CC5 /* PrefixHeader.pch */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
